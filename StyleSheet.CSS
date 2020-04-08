@@ -1,0 +1,442 @@
+ /* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #f8f8f8;
+  font-family: Arial;
+  width:100% !important;
+  margin:0px auto;
+  left:0;
+  right:0;
+  padding:0;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  color: 0032b5;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 24px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  color: 0032b5;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: white;
+  text-decoration: none;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  color: 0032b5;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: 0032b5;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: justify;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+  text-decoration: none;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+  text-decoration: none;
+} 
+
+
+.Header {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Footer {
+	color: 0032b5;
+	font-style: italic;
+	bottom:0;
+	
+}
+.PortalFooter {
+	text-align: center;
+	bottom:0;
+	color: 0032b5;
+	font-style: italic;
+	font-size: 11px;
+	width: 100%;
+	max-width: 1500px;
+	min-width: 550px;
+	
+	
+}
+.PortalFooter table{
+	text-align: center;
+	bottom:0;
+	color: 0032b5;
+	font-style: italic;
+	font-size: 11px;
+	width: 100%;
+	max-width: 1500px;
+	min-width: 550px;
+}
+
+a:link {
+    color: 0032b5;
+	text-decoration: none;
+	}
+a:visited {
+    color: 0032b5;
+	text-decoration: none;
+}
+a:hover {
+    color: 2b53b8;
+	text-decoration: underline;
+}
+a:active {
+    color: 2b53b8;
+	text-decoration: underline;
+}
+
+.Len{
+	
+    margin: auto;
+	max-width: 1500px;
+	min-width: 550px;
+    
+}
+.LenMainSite{
+	width:100%;
+    margin: auto;
+	max-width: 1500px;
+	min-width: 550px;
+    
+}
+.LenCont{
+	width:100%;
+    margin: auto;
+	max-width: 1500px;
+	min-width: 250px;
+	height:50%;
+    
+}
+
+.MainContent h1{
+	color: 0032b5;
+	font-weight: normal;
+	text-align: justify;
+	text-justify: inter-word;
+	
+}
+
+.MainContent p{
+	color: #808080;
+	text-align: justify;
+	text-justify: inter-word;
+	padding-left: 5px;
+	padding-right: 5px;
+	
+}
+.MainContentHeader h1{
+	text-align: center;
+}
+.MainContentHeader p{
+	text-align: center;
+}
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+
+.MailOrderList td {
+	padding-top: 50;
+	padding-bottom: 50;
+}
+table.one {
+    float:left;
+    width:45%;
+}
+
+table.two   {
+    width:45%;
+    float:right;
+}​
+.two td{
+	
+	padding-bottom: 20px;
+}
+
+.Legal td{
+	font-size: 20px;
+	padding-top: 25;
+	padding-bottom: 25;
+	padding-right: 50;
+}
+.Legaltxt {
+    float: right;
+}
+.selected {
+	 background-color: #ddd;
+}
+
+/* CSS for Bootstrap image hover effect */
+.hovereffect {
+	
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+.hovereffect .overlay {
+  width: 100%;
+  height:100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  background-color: rgba(75,75,75,0.7);
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.hovereffect:hover .overlay {
+  background-color: rgba(48, 152, 157, 0.4);
+}
+
+.hovereffect:hover p {
+  text-align: center;
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+ }
+
+.hovereffect h2 {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  font-size: 17px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.6);
+  -webkit-transform: translateY(45px);
+  -ms-transform: translateY(45px);
+  transform: translateY(45px);
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.hovereffect:hover h2 {
+  -webkit-transform: translateY(5px);
+  -ms-transform: translateY(5px);
+  transform: translateY(5px);
+}
+
+.hovereffect p.info {
+  display: inline-block;
+  text-decoration: none;
+  padding: 5px 12px;
+  text-transform: uppercase;
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: transparent;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  font-size: 14px;
+  margin: -52px 0 0 0;
+  padding: 60px 98px;
+}
+
+.hovereffect:hover p.info {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.hovereffect p.info:hover {
+  box-shadow: 0 0 5px #fff;
+}
+.login{
+	width: 500px;
+	position: relative;
+	top: 150;
+	margin: auto;
+	
+}
+.login h1{
+	color: 0032b5;
+	font-weight: normal;
+	text-align: justify;
+	font-size: 64px;
+	text-justify: inter-word;
+}
+.secText{
+	font-size: 11px;
+	color: #808080;
+	
+}
+
+.LoginBtn{
+	text-align: center;
+    text-decoration: none;
+	display: inline-block;
+	color: 0032b5;
+	background-color: white;
+	font-weight: Bold;
+	font-size: 16px;
+}
+.LoginTbl{
+	border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px;
+    width: 200px;
+    height: 150px; 
+	border-color: 0032b5;
+	
+}
+.border_bottom {
+ border-bottom: 1pt solid black;
+}
+.portal h1{
+	color: 0032b5;
+	font-weight: normal;
+	text-align: left;
+	font-size: 90px;
+	
+	
+	
+}
+.PortalHeader p{
+	color: #808080;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.Footer table {
+	color: 0032b5;
+	text-align: center;
+	font-size: 12px;
+}
+
+.PortalNav td{
+	color: 0032b5;
+	padding-top: 5px;
+	padding-bottom: 5px
+	
+}
+.PortalNav table{
+	background-color: #f8f8f8;
+	width: 22%;
+	float: left;
+	
+}
+.PortalContent{
+	width: 72%;
+	float: right;
+	font-size: 16px;
+}
+.PortalSecNotice{
+	width: 72%;
+	float: right;
+	font-size: 16px;
+}
+.stocktable{
+	font-size: 16px;
+	table-layout: fixed;
+	background-color: #f8f8f8;
+}
+.stocktable  th, td {
+	width: 20%;
+	
+}
+
+.ContactHead{
+	color: 0032b5;
+	background-color: #f8f8f8;
+	font-weight: normal;
+	font-size: 20px;
+	padding-right: 5px;
+	padding-left: 5px;
+	border-bottom: 1px;
+}
+.body{
+width:100%;
+padding:0; 
+margin:25pt; 
+}
+
+#my{
+zoom: 100%;
+}
+.DocStoreBtn{
+	color: 0032b5;
+	font-size: 12px;
+	 display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	background-color: white;
+	padding: 10px;
+	border: 2px solid #0032b5;
+	}
+.DocStoreBtn:hover {
+	color: white;
+	    background-color: #0032b5; 
+}
+.DocStoreHeader{
+	color: 0032b5;
+}
+.DocStoreLinks a:hover
+{
+	text-decoration: none;
+	color: black;
+}
+.nowrap {
+  white-space: nowrap ;
+}
